@@ -24,7 +24,45 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <style>
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
 
+        input[type=textarea], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+
+    </style>
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -128,7 +166,26 @@
                     </h2>
                     </div> 
                     <div class="col-sm-6">
-                    <i class="fa fa-headphones img-responsive big-icon" aria-hidden="true"></i>
+                    <i class="fa fa-headphones img-responsive big-icon" aria-hidden="true">  
+                        <form action="/">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                             <label for="lname">Email</label>
+                             <input type="text" id="email" name="email" placeholder="Your email..">
+    
+                            <label for="country">Request</label>
+                            <select id="Request" name="Request">
+                                <option value="Request">Song Request</option>
+                                <option value="Shows">Show Inquires</option>
+                                <option value="Other">Other</option>
+                            </select>
+
+                            <label for="country">Message</label>
+                             <input type="textarea" id="Message" name="Message">
+  
+                            <input type="submit" value="Submit">
+                         </form></i>
                     </div>
                 </div>
             </div>
