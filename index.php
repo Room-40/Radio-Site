@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Room40 Radio</title>
+    <title>Room 40 Radio</title>
     <!-- Font Awesome CDN -->
     <script src="https://use.fontawesome.com/628913e8a7.js"></script>
     <!-- Bootstrap Core CSS -->
