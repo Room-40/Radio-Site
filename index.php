@@ -99,7 +99,7 @@
                         <a class="page-scroll" href="#services">Get Involved</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
