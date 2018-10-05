@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Room40 Radio</title>
+    <title>Room 40 Radio</title>
     <!-- Font Awesome CDN -->
     <script src="https://use.fontawesome.com/628913e8a7.js"></script>
     <!-- Bootstrap Core CSS -->
@@ -99,7 +99,7 @@
                         <a class="page-scroll" href="#services">Get Involved</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
